@@ -14,6 +14,8 @@ nav li {
 
 }
 
+/* Colors */
+
 nav li a{
     color: lightblue;
 }
@@ -22,6 +24,8 @@ nav li a:hover {
 }
 h1, h2, h3 {
     color: crimson
+
+/* Main Styles */    
 }
 main {
     width: 70%;
@@ -51,3 +55,16 @@ footer {
     width: 100%;
 }
 
+/* Flex styles */
+.flex-container {
+    display: flex;
+    display: -webskit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.flex-item {
+    background-color: hotpink;
+    margin: 1em;
+}
